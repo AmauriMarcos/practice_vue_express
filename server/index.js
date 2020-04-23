@@ -8,6 +8,10 @@ bodyParser.urlencoded({extended: true});
 app.use(bodyParser.json());
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send('Hello world.');
+});
+
 
 const posts = require('./routes/api/posts');
 app.use('/api/posts', posts);
