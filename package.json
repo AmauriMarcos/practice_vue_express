@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev"  : "nodemon server/index.js"
+    "dev": "nodemon server/index.js"
   },
   "author": "AmauriSantos",
   "license": "ISC",
   "dependencies": {
+    "@vue/cli": "^4.3.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongodb": "^3.5.6",
